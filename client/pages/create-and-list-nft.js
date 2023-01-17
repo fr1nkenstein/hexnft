@@ -12,7 +12,7 @@ import BoredPetsNFT from '../contracts/ethereum-contracts/BoredPetsNFT.json'
 
 // new stuff
 import axios from 'axios';
-import { contractAddress,PINATA_KEY,PINATA_SECRET } from './config';
+import { contractAddress,PINATA_KEY,PINATA_SECRET } from '../config';
 
 
 export default function CreateItem() {
